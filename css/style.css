@@ -19,7 +19,7 @@ body {
 * {
     padding: 0;
     margin: 0;
-    outline: 0;
+    /* outline: 0; */
     box-sizing: border-box;
 }
 
@@ -189,7 +189,7 @@ p {
     border-radius: 41px;
     border: 2px solid rgba(244, 246, 252, 0.20);
     color: var(--white);
-    font-family: Manrope;
+    font-family: 'Manrope', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -516,7 +516,7 @@ p {
     font-size: 32px;
     font-weight: 500;
     line-height: 48px;
-    /* 150% */
+    padding-bottom: 40px;
 }
 
 .client__info {
@@ -638,6 +638,145 @@ p {
 
 
 /* =================================
+          Inquiry Start Here
+===================================== */
+#inquiry {
+    padding-bottom: 128px;
+}
+
+.inquiry__wrapper {
+    display: flex;
+}
+
+.inquiry__img {
+    width: 656px;
+    height: 691px;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+
+.inquiry__img picture {
+    width: inherit;
+    height: inherit;
+}
+
+.inquiry__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inquiry__img__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 84, 0.5);
+    padding: 96px 96px 261px 96px;
+}
+
+.inquiry__img__overlay .section__heading {
+    color: var(--white);
+    padding-bottom: 24px;
+}
+
+.inquiry__img__overlay .paragraph {
+    color: var(--white);
+    font-weight: 500;
+}
+
+
+.inquiry__form {
+    width: 624px;
+    height: 691px;
+    background-color: var(--bg_clr);
+    padding: 96px 96px 48px 96px;
+}
+
+.inquiry__form h3 {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    /* 150% */
+}
+
+.inquiry__form p {
+    color: #F4F6FC;
+    font-weight: 500;
+    padding: 16px 0 40px;
+}
+
+
+.inquiry__form__group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+}
+
+.inquiry__form__input {
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    background: transparent;
+    padding: 18px 32px;
+    color: rgba(243, 245, 252, 0.5);
+
+}
+
+.inquiry__form__input::placeholder {
+    color: rgba(243, 245, 252, 0.5);
+}
+
+.inquiry__form__group button {
+    border-radius: 41px;
+
+    border: none;
+    padding: 16px 100px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    background: transparent;
+    color: var(--white);
+    cursor: pointer;
+    transition: all linear .3s;
+    margin: 39px 0 28px;
+}
+
+.inquiry__form__group button:hover {
+    background: #FCD980;
+    color: var(--primary_clr);
+}
+
+.inquiry__form a {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 177.778% */
+    text-align: center;
+    display: block;
+}
+
+.inquiry__form i {
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+
+
+/* =================================
+          Inquiry End Here
+===================================== */
+
+
+/* =================================
           Navbar Start Here
 ===================================== */
 /* =================================
@@ -648,10 +787,4 @@ p {
 ===================================== */
 /* =================================
           Navbar End Here
-===================================== */
-/* =================================
-          Navbar Start Here
-===================================== */
-/* =================================
-          Navbar End Here
-===================================== */
+==============================
