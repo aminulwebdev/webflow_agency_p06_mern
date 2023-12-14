@@ -1,8 +1,55 @@
+:root {
+    --white: #fff;
+    --primary_clr: #282938;
+    --pera_clr: rgba(40, 41, 57, 0.7);
+    --bg_clr: #1C1E53;
+}
+
 /* =================================
           Common Code Start
 ===================================== */
 
 
+body {
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: .8;
+}
+
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.commonbtn {}
 
 /* =================================
           Common Code End
@@ -12,6 +59,59 @@
 /* =================================
           Navbar Start Here
 ===================================== */
+#navbar {
+    background-color: red;
+    padding: 16px 0;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.nav__link {
+    color: #BBBBCB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    transition: all linear .3s;
+}
+
+.nav__link:hover {
+    color: var(--white);
+}
+
+.nav__btn a {
+    color: var(--white);
+    padding: 16px 48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    transition: all linear .3s;
+}
+
+.nav__btn a:hover {
+    color: #1B1C2B;
+    background: #FCD980;
+}
+
 /* =================================
           Navbar End Here
 ===================================== */
