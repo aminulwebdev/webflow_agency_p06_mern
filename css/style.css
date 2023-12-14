@@ -433,11 +433,54 @@ p {
 
 
 /* =================================
-          Navbar Start Here
+          Features Start Here
 ===================================== */
+#features {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.features__heading {
+    text-align: center;
+}
+
+.features__heading h5 {
+    color: var(--primary_clr);
+}
+
+.features__heading h2 {
+    width: 630px;
+    margin: 12px auto 47px auto;
+}
+
+.features__wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.features__item {
+    width: 405px;
+    padding: 58px 32px 48px 48px;
+    background-color: var(--white);
+}
+
+.features__icon i {
+    font-size: 32px;
+    color: #2405F2;
+}
+
+.features__item .sub__heading {
+    padding: 22px 0 12px;
+}
+
 /* =================================
-          Navbar End Here
+          Features End Here
 ===================================== */
+
+
 /* =================================
           Navbar Start Here
 ===================================== */
