@@ -51,6 +51,15 @@ p {
 
 .commonbtn {}
 
+
+.paragraph {
+    color: var(--pera_clr);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
 /* =================================
           Common Code End
 ===================================== */
@@ -60,8 +69,11 @@ p {
           Navbar Start Here
 ===================================== */
 #navbar {
-    background-color: red;
     padding: 16px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .nav__menu {
@@ -112,6 +124,136 @@ p {
     background: #FCD980;
 }
 
+/* =================================
+          Navbar End Here
+===================================== */
+
+/* =================================
+          Banner Start Here
+===================================== */
+#banner {
+    background-color: var(--bg_clr);
+    padding: 218px 0 128px;
+}
+
+.banner__wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.branner__content {
+    width: 582px;
+}
+
+.branner__content h1 {
+    color: var(--white);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+.paragraph--alter {
+    color: var(--white);
+    width: 562px;
+    padding: 24px 0 48px;
+}
+
+.banner__btn {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.banner__btn a {
+    padding: 16px 56px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    color: var(--white);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    transition: all linear .3s;
+}
+
+.banner__btn i {
+    margin-left: 16px;
+}
+
+.banner__btn a:hover {
+    color: #1B1C2B;
+    background: #FCD980;
+}
+
+.banner__btn a:nth-child(2) {
+    border: none;
+    padding: 0;
+}
+
+.banner__btn a:nth-child(2):hover {
+    background-color: transparent;
+    color: var(--white);
+}
+
+.branner__img {
+    width: 638px;
+}
+
+/* =================================
+          Banner End Here
+===================================== */
+
+
+
+
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
+/* =================================
+          Navbar End Here
+===================================== */
+/* =================================
+          Navbar Start Here
+===================================== */
 /* =================================
           Navbar End Here
 ===================================== */
